@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DELETE",
+    "collectionId": "7ff7f809-cb08-43e5-a906-7cc5e3e89f80",
+    "dateExported": "2024-07-16T22:38:45.684Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "68fe19ee-dd1b-4742-859a-6d9ac1f7782c",
+            "colId": "7ff7f809-cb08-43e5-a906-7cc5e3e89f80",
+            "containerId": "",
+            "name": "delete pratos",
+            "url": "localhost:1337/api/pratos/4",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-07-16T22:35:33.229Z",
+            "modified": "2024-07-16T22:36:07.585Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\":{\n    \"id\": 4\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0861e27a-b6d7-458a-8a67-b9b8f24c3eab",
+            "colId": "7ff7f809-cb08-43e5-a906-7cc5e3e89f80",
+            "containerId": "",
+            "name": "delete categorias",
+            "url": "localhost:1337/api/categorias/4",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-07-16T22:36:22.643Z",
+            "modified": "2024-07-16T22:37:15.610Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\":{\n    \"id\": 4\n  }\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "k85bxmk9s4_lhv4WE6qsAlbpT5cjDlUWIj3-LOUZmsWCu0dF_clrV2xw9dGEk7DYg7XU-kH9sWLUTIKMbSbJVQ"
+}

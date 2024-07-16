@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "UPDATE",
+    "collectionId": "86f47204-79b1-42bf-9b75-7db5287d0020",
+    "dateExported": "2024-07-16T22:39:16.802Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c512fe99-3e22-4541-a161-598b9bed2044",
+            "colId": "86f47204-79b1-42bf-9b75-7db5287d0020",
+            "containerId": "",
+            "name": "update pratos",
+            "url": "localhost:1337/api/pratos/8",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-07-16T22:28:16.039Z",
+            "modified": "2024-07-16T22:32:28.528Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\":{\n    \"imagem\": 4\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bf233431-011f-48bb-8a7e-95e220688c02",
+            "colId": "86f47204-79b1-42bf-9b75-7db5287d0020",
+            "containerId": "",
+            "name": "update categorias",
+            "url": "localhost:1337/api/categorias/3",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-16T22:32:18.805Z",
+            "modified": "2024-07-16T22:34:35.568Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\":{\n    \"nome\":\"cafe da tarde\"\n  }\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "VLEA0z7FA0hgoYxeX0NLuj4nWZt_6iSf_tH61V7ms93xx-xWILvvu0WXZ-TYdDWjXABZXwNpg-TCMBXD2Pi1dA"
+}

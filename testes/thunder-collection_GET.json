@@ -1,0 +1,73 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "GET",
+    "collectionId": "76fb3e60-1ffe-4b77-bc0e-b1de8e4ff41b",
+    "dateExported": "2024-07-16T22:39:27.130Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e0c2651a-7088-4c77-8f06-299a4a045062",
+            "colId": "76fb3e60-1ffe-4b77-bc0e-b1de8e4ff41b",
+            "containerId": "",
+            "name": "get pratos populate",
+            "url": "localhost:1337/api/pratos?populate=*",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-16T21:46:35.122Z",
+            "modified": "2024-07-16T21:46:43.186Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "populate",
+                    "value": "*",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "4106803c-e2f2-4443-9bcc-45326abe8382",
+            "colId": "76fb3e60-1ffe-4b77-bc0e-b1de8e4ff41b",
+            "containerId": "",
+            "name": "get pratos id",
+            "url": "localhost:1337/api/pratos/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-16T21:47:32.078Z",
+            "modified": "2024-07-16T21:47:43.789Z",
+            "headers": []
+        },
+        {
+            "_id": "a8d540e1-26ef-4d4e-98fd-3bb17dd22e69",
+            "colId": "76fb3e60-1ffe-4b77-bc0e-b1de8e4ff41b",
+            "containerId": "",
+            "name": "get categorias populate",
+            "url": "localhost:1337/api/categorias?populate=*",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-16T21:48:40.208Z",
+            "modified": "2024-07-16T21:49:21.519Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "populate",
+                    "value": "*",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "965fb8ea-2a2b-478f-b0c4-5724e7a8f30d",
+            "colId": "76fb3e60-1ffe-4b77-bc0e-b1de8e4ff41b",
+            "containerId": "",
+            "name": "get categorias id",
+            "url": "localhost:1337/api/categorias/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-07-16T21:49:35.671Z",
+            "modified": "2024-07-16T21:49:45.522Z",
+            "headers": []
+        }
+    ],
+    "ref": "rzIO3uy2NHRh3ZRUrSzzGdlRWGj7Xr3a9gbpLJ5S1o-M09Hb0GVqKfLtBmHfma2XmFya9l1v5R3njLhernGUzg"
+}

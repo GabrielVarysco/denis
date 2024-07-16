@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pratos",
+  "info": {
+    "singularName": "prato",
+    "pluralName": "pratos",
+    "displayName": "Pratos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preco": {
+      "type": "decimal",
+      "required": true
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categoria.categoria"
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
